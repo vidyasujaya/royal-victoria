@@ -1,6 +1,7 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import styled from "styled-components";
+import Wave from "../assets/Wave.svg";
 
 const Styles = styled.div`
   .mt-3 {
@@ -9,12 +10,16 @@ const Styles = styled.div`
     padding-bottom: 5%;
     min-height: 100vh !important;
   }
+  .imgwidth {
+    width: 100vw;
+  }
 `;
 
 export const Layout = (props) => {
   return (
     <Styles>
       <Container className="mt-3">{props.children}</Container>
+      <Image className="imgwidth" src={Wave}></Image>
     </Styles>
   );
 };

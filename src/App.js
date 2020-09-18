@@ -3,8 +3,8 @@ import { Row, Col, ResponsiveEmbed } from "react-bootstrap";
 import "./App.css";
 import { RouterComponent } from "./RouterComponent";
 import { Layout } from "./components/Layout";
-import { NavBar } from "./components/NavBar";
-import Logo from "./assets/Logo.svg";
+import { NavBar } from "./components/NavBar2";
+import BlueLogo from "./assets/BlueLogo.svg";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
             <div>
               <div>
                 <ResponsiveEmbed aspectRatio="1by1">
-                  <embed type="image/svg+xml" src={Logo} />
+                  <embed type="image/svg+xml" src={BlueLogo} />
                 </ResponsiveEmbed>
               </div>
             </div>

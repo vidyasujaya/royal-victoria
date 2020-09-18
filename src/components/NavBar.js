@@ -1,5 +1,6 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, Image } from "react-bootstrap";
+import SmallLogo from "../assets/SmallLogo.svg";
 import styled from "styled-components";
 
 const Styles = styled.div`
@@ -19,7 +20,7 @@ const Styles = styled.div`
 export const NavBar = () => {
   return (
     <Styles>
-      <Navbar expand="lg">
+      <Navbar expand="md lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
