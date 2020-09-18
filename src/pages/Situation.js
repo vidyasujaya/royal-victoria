@@ -1,10 +1,10 @@
 import React from "react";
 
-export const Home = () => {
+export const Situation = () => {
   return (
     <div>
-      <h1>Home</h1>
-      <h3>What is the Royal Vic for the Public Coalition?</h3>
+      <h3>The Situation</h3>
+      <hr />
       <p>
         The Royal Vic for the Public Coalition is a community coalition that
         advocates for the site of the former Royal Victoria Hospital to always

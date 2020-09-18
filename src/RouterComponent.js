@@ -1,20 +1,25 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home } from "./Home";
-import { About } from "./About";
-import { Contact } from "./Contact";
-import { Resources } from "./Resources";
-import { NoMatch } from "./NoMatch";
+import { Home } from "./pages/Home";
+import { OpenLetter } from "./pages/OpenLetter";
+import { Connect } from "./pages/Connect";
+import { Resources } from "./pages/Resources";
+import { NoMatch } from "./pages/NoMatch";
+import { Research } from "./pages/Research";
+import { Situation } from "./pages/Situation";
+import { March } from "./pages/March";
 
 export const RouterComponent = (props) => {
   return (
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/the-situation" component={Situation} />
+        <Route exact path="/our-open-letter" component={OpenLetter} />
+        <Route exact path="/our-march" component={March} />
+        <Route exact path="/our-research" component={Research} />
         <Route exact path="/resources" component={Resources} />
+        <Route exact path="/connect-with-us" component={Connect} />
         <Route component={NoMatch} />
       </Switch>
     </Router>

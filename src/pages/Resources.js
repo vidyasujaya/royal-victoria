@@ -3,7 +3,9 @@ import React from "react";
 export const Resources = () => {
   return (
     <div>
-      <h1>Resources</h1>
+      <h3>Resources</h3>
+      <hr />
+
       <p>
         To access official government/SQI documents regarding their planning
         process,{" "}

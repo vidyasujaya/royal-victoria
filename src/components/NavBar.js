@@ -4,9 +4,8 @@ import styled from "styled-components";
 
 const Styles = styled.div`
   .navbar {
-    background-color: #222;
+    background-color: #98b6b1;
   }
-
   .navbar-brand,
   .navbar-nav,
   .nav-link {
@@ -21,7 +20,6 @@ export const NavBar = () => {
   return (
     <Styles>
       <Navbar expand="lg">
-        <Navbar.Brand href="/">Royal Vic for the Public Coalition</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
@@ -29,13 +27,22 @@ export const NavBar = () => {
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/the-situation">The Situation</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="/our-open-letter">The Open Letter</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="/our-march">Our March</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="/our-research">Our Research</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href="/resources">Resources</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+              <Nav.Link href="/connect-with-us">Connect With Us</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

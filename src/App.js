@@ -14,9 +14,11 @@ function App() {
         <Row>
           <Col xs={2}>
             <div>
-              <ResponsiveEmbed aspectRatio="1by1">
-                <embed type="image/svg+xml" src={Logo} />
-              </ResponsiveEmbed>
+              <div>
+                <ResponsiveEmbed aspectRatio="1by1">
+                  <embed type="image/svg+xml" src={Logo} />
+                </ResponsiveEmbed>
+              </div>
             </div>
           </Col>
           <Col xs={10}>

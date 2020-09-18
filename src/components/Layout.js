@@ -5,6 +5,9 @@ import styled from "styled-components";
 const Styles = styled.div`
   .mt-3 {
     margin-top: 3 !important;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-height: 100vh !important;
   }
 `;
 
