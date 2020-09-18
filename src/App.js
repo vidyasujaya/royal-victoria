@@ -1,28 +1,28 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Row, Col, ResponsiveEmbed } from "react-bootstrap";
 import "./App.css";
-import { Home } from "./Home";
-import { About } from "./About";
-import { Contact } from "./Contact";
-import { Resources } from "./Resources";
-import { NoMatch } from "./NoMatch";
+import { RouterComponent } from "./RouterComponent";
 import { Layout } from "./components/Layout";
 import { NavBar } from "./components/NavBar";
+import Logo from "./assets/Logo.svg";
 
 function App() {
   return (
     <React.Fragment>
       <NavBar />
       <Layout>
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/resources" component={Resources} />
-            <Route component={NoMatch} />
-          </Switch>
-        </Router>
+        <Row>
+          <Col xs={2}>
+            <div>
+              <ResponsiveEmbed aspectRatio="1by1">
+                <embed type="image/svg+xml" src={Logo} />
+              </ResponsiveEmbed>
+            </div>
+          </Col>
+          <Col xs={10}>
+            <RouterComponent />
+          </Col>
+        </Row>
       </Layout>
     </React.Fragment>
   );
