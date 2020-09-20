@@ -6,20 +6,29 @@ export const OpenLetter = () => {
       <h3>Our Open Letter</h3>
       <hr />
       <p>
-        We wrote{" "}
-        <a href="https://ccmp-mpcc.us13.list-manage.com/track/click?u=36c1b55af25203f26288d151a&id=68e7b45988&e=617850c6c1">
-          an open letter
-        </a>{" "}
-        insisting that the site should not be privatized but used to serve the
-        common good: health services, social housing, education, social
-        services, community spaces, the social economy, non-profit
-        organizations, etc. In the letter, we stress that the eventual use of
-        the site must be in accordance with the wishes recorded in the original
-        founders' deeds -- the site must always be used for healing. We further
-        argue that its future must be decided, owned, and managed democratically
-        and ecologically. We invite organizations to sign our open letter, which
-        will be circulated to the media during the summer months. Please contact
-        us to sign the letter: ccmp.miltonparc@gmail.com.
+        After our march on September 4th, we published an open letter (LINK) in
+        the media with our Coalition’s position:
+      </p>
+      <p>
+        <ul>
+          <li>opposing privatization</li>
+          <li>maintaining the site’s use for community-type of functions;</li>
+          <li>
+            demanding transparent decision-making process that involve civil
+            society;
+          </li>
+          <li>
+            respecting the Royal Victoria’s founding mission by preserving its
+            legacy of healing;
+          </li>
+          <li>favouring an ecological approach in the site’s development.</li>
+        </ul>
+      </p>
+      <p>
+        Organizations still have the opportunity to sign our open letter. You
+        are invited to contact us at: ccmp.miltonparc@gmail.com. Please note
+        that the open letter is not currently open to signatures from
+        individuals.
       </p>
       <p>It has been published in ….</p>
       <p>Signed by over … community organizations.</p>
