@@ -1,4 +1,7 @@
 import React from "react";
+import { Image } from "react-bootstrap";
+import Plan from "../assets/Plan.svg";
+import Site from "../assets/Site.svg";
 
 export const History = () => {
   return (
@@ -21,6 +24,16 @@ export const History = () => {
         government who will ultimately make decisions about the future of the
         site.
       </p>
+      <Image
+        fluid
+        src={Site}
+        alt="Site McGill sur le site de l'Hôpital Royal Victoria"
+      />
+      <br />
+      <br />
+      <Image fluid src={Plan} alt="Plan" />
+      <br />
+      <br />
       <p>
         So what does this mean for us? McGill University will probably
         eventually acquire half of the pavilions for a campus. We are not
