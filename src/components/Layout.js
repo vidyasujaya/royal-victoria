@@ -4,7 +4,7 @@ import { Footer } from "./Footer";
 import styled from "styled-components";
 import Wave from "../assets/Wave.svg";
 import BottomDesign from "../assets/BottomDesign.svg";
-import BottomShort from "../assets/BottomShort.svg";
+import BottomShortLines from "../assets/BottomShortLines.svg";
 
 const Styles = styled.div`
   .mt-3 {
@@ -22,7 +22,7 @@ export const Layout = (props) => {
   return (
     <Styles>
       <Container className="mt-3">{props.children}</Container>
-      <Image fluid className="imgwidth" src={BottomShort}></Image>
+      <Image fluid className="imgwidth" src={BottomShortLines}></Image>
     </Styles>
   );
 };
