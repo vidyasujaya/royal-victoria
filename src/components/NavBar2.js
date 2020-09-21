@@ -3,6 +3,7 @@ import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import styled from "styled-components";
 import SmallLogo from "./SmallLogo.svg";
 import BlueLogo from "../assets/BlueLogo.svg";
+import TextLogo from "../assets/TextLogo.svg";
 
 const Styles = styled.div``;
 
@@ -14,8 +15,7 @@ export const NavBar = () => {
           <a href="/">
             <img
               alt=""
-              src={BlueLogo}
-              width="40"
+              src={TextLogo}
               height="40"
               className="d-inline-block align-top"
             />

@@ -4,7 +4,9 @@ export const Home = () => {
   return (
     <div>
       <h3>Our Coalition</h3>
-      <h5>We are the Royal Vic for the Public Coalition</h5>
+      <h5>
+        We are <mark>the Royal Vic for the Public Coalition</mark>
+      </h5>
       <hr />
       <p>
         The Royal Vic for the Public Coalition is a Montreal-wide coalition to
