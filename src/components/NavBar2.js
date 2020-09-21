@@ -4,19 +4,7 @@ import styled from "styled-components";
 import SmallLogo from "./SmallLogo.svg";
 import BlueLogo from "../assets/BlueLogo.svg";
 
-const Styles = styled.div`
-  .navbar {
-    background-color: #98b6b1;
-  }
-  .navbar-brand,
-  .navbar-nav,
-  .nav-link {
-    color: #bbb;
-    &:hover {
-      color: white;
-    }
-  }
-`;
+const Styles = styled.div``;
 
 export const NavBar = () => {
   return (
