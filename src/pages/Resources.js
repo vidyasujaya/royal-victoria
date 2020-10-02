@@ -75,7 +75,7 @@ export const Resources = () => {
       <p>
         See this{" "}
         <u>
-          <a href="https://ccmp-mpcc.us13.list-manage.com/track/click?u=36c1b55af25203f26288d151a&id=6a79a1ea73&e=617850c6c1">
+          <a href="https://drive.google.com/file/d/1ZUpDp9uchQ-tikkqFFqFsHpeV31Yj6fp/view">
             slideshow
           </a>
         </u>{" "}
