@@ -5,9 +5,17 @@ export const Connect = () => {
     <div>
       <h3>Connect</h3>
       <hr />
-      <p>Email </p>
-      <p>Join the Google Group</p>
-      <p>We usually meet every 2nd Thursday morning at 11 a.m.</p>
+      <p>
+        Email us at:{" "}
+        <u>
+          <a></a>
+        </u>
+      </p>
+      <p>
+        <u>
+          <a>Join the Google Group</a>
+        </u>
+      </p>
     </div>
   );
 };

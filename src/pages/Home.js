@@ -1,40 +1,62 @@
 import React from "react";
+import { Image } from "react-bootstrap";
+import ChristaLogo from "../assets/ChristaLogo.svg";
 
 export const Home = () => {
   return (
     <div>
+      <Image fluid className="imgwidth" src={ChristaLogo}></Image>
       <h3>Our Coalition</h3>
-      <h5>
-        We are <mark>the Royal Vic for the Public Coalition</mark>
-      </h5>
       <hr />
       <p>
-        The Royal Vic for the Public Coalition is a Montreal-wide coalition to
-        advocate for the hospital to always be devoted to the common good, in
-        accordance with the wishes recorded in the original founders' deeds. The
-        site of the former Royal Victoria Hospital must remain in the public
-        domain, be managed democratically and ecologically, and be used to serve
-        urgent needs in our communities.
+        <b>
+          We are a Montreal-wide coalition that advocates for the Royal Victoria
+          hospital to remain devoted to the common good.
+        </b>{" "}
+        The site of the hospital must remain in the public domain, be managed
+        democratically and ecologically, and be used to serve urgent needs in
+        our communities.
       </p>
+      <h3>Background</h3>
+      <hr />
       <p>
-        We oppose any attempt to privatize the site, as has happened to many
-        other hospitals, and major institutional and ecclesiastical sites close
-        to the mountain, like the Children’s Hospital, the Chest Hospital,
-        Marianopolis College, the Couvent d’Outremont, the Missionary Sisters of
-        the Immaculate Conception, and the Shriners Hospital. Other enormous
-        publicly-owned sites that have been sold off for private developers are
-        the Radio-Canada site and the Peel-Bonaventure Basin site.
+        The provincial government has mandated the Société Québécoise des
+        Infrastructures (SQI) to conduct a master plan on the future use of the
+        Royal Victoria Hospital. They have authorized McGill University to
+        explore using a portion of the pavilions as a campus.
       </p>
+      <h3>Our Initiatives</h3>
+      <hr />
+      <h6>Our March</h6>
       <p>
-        The founding members of the Coalition are the Milton Parc Citizens’
-        Committee, the Peter McGill Community Council, the Students’ Society of
-        McGill University, the Yellow Door, and the Communauté Milton Parc.
+        In the middle of the pandemic, the coalition organized a march on
+        September 4th, 2020. There were families, speeches, politicians, media,
+        and even a choir!
+      </p>
+      <h6>Our Open Letter</h6>
+      <p>
+        In the middle of the pandemic, the coalition organized a march on
+        September 4th, 2020. There were families, speeches, politicians, media,
+        and even a choir!
+      </p>
+      <h6>Consultation {"&"} Research</h6>
+      <p>
+        We are studying and consulting to explore community uses for the site of
+        the former Royal Victoria Hospital.
+      </p>
+      <h3>Resources</h3>
+      <p>
+        If you want to find out more, there is lots of useful documentation!
       </p>
       <hr />
-      <h3>News</h3>
-      <a href="/our-march">
-        <h6>September 4 Community March</h6>
-      </a>
+      <h3>Media</h3>
+      <p>
+        Click here for news reports, photos, and videos about the hospital and
+        our coalition.
+      </p>
+      <hr />
+      <h3>Connect With Us</h3>
+      <p>Contact us to keep in the loop and get involved!</p>
     </div>
   );
 };

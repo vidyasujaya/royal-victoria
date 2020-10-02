@@ -1,8 +1,6 @@
 import React from "react";
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
-import SmallLogo from "./SmallLogo.svg";
-import BlueLogo from "../assets/BlueLogo.svg";
 import TextLogo from "../assets/TextLogo.svg";
 
 const Styles = styled.div``;
@@ -25,7 +23,13 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/history">History</Nav.Link>
+            <Nav.Link href="/coalition">Our Coalition</Nav.Link>
+            <Nav.Link href="/background">Background</Nav.Link>
+            <Nav.Link href="/initiatives">Our Initiatives</Nav.Link>
+            <Nav.Link href="/resources">Resources</Nav.Link>
+            <Nav.Link href="/media">Media</Nav.Link>
+            <Nav.Link href="/connect-with-us">Connect With Us</Nav.Link>
+            {/*IN CASE OF FUTURE NEED FOR DROPDOWN NAV COMPONENT
             <NavDropdown title="Publications" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/publications/our-open-letter">
                 Our Open Letter
@@ -42,11 +46,7 @@ export const NavBar = () => {
               <NavDropdown.Item href="/publications/others">
                 Others
               </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="/our-march">Our March</Nav.Link>
-            <Nav.Link href="/our-research">Our Research</Nav.Link>
-            <Nav.Link href="/resources">Resources</Nav.Link>
-            <Nav.Link href="/connect-with-us">Connect With Us</Nav.Link>
+  </NavDropdown>*/}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -4,8 +4,6 @@ import "./App.css";
 import { RouterComponent } from "./RouterComponent";
 import { Layout } from "./components/Layout";
 import { NavBar } from "./components/NavBar2";
-import BlueLogo from "./assets/BlueLogo.svg";
-import Squares from "./assets/Squares.svg";
 import NoShadowSquares from "./assets/NoShadowSquares.svg";
 
 function App() {

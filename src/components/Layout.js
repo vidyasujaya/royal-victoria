@@ -1,9 +1,6 @@
 import React from "react";
 import { Container, Image } from "react-bootstrap";
-import { Footer } from "./Footer";
 import styled from "styled-components";
-import Wave from "../assets/Wave.svg";
-import BottomDesign from "../assets/BottomDesign.svg";
 import BottomShortLines from "../assets/BottomShortLines.svg";
 
 const Styles = styled.div`

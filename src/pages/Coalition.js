@@ -3,26 +3,37 @@ import { Image } from "react-bootstrap";
 import Plan from "../assets/Plan.svg";
 import Site from "../assets/Site.svg";
 
-export const History = () => {
+export const Coalition = () => {
   return (
     <div>
-      <h3>History</h3>
-      <h5>The Situation and What is Happening with the Hospital</h5>
+      <h3>Our Coalition</h3>
+      <h5>We are the Royal Vic for the Public Coalition</h5>
       <hr />
       <p>
-        In 2015, health services moved out of the Royal-Victoria Hospital in
-        2015 and into the new super-hospital at the Glen. Three years later, in
-        2018, the Quebec government announced authorization of McGill University
-        to explore using half of the pavilions (pavilions L, M, S, A, and E) to
-        develop a new campus by 2027, and granted McGill $37m to fund a
-        feasibility study. They also mandated the Société Québécoise des
-        Infrastructures (SQI), the provincial agency that manages provincially
-        owned property, to do a master plan for the whole site and to propose
-        different uses (including for the pavilions not proposed as a McGill
-        campus, H, R, F, C, X, and eventually the Allen Memorial Institute).
-        These proposals will go to the Conseil du Trésor of the provincial
-        government who will ultimately make decisions about the future of the
-        site.
+        <b>
+          The Royal Vic for the Public Coalition is a Montreal-wide coalition to
+          advocate for the hospital to always be devoted to the common good,
+        </b>{" "}
+        in accordance with the founders’ wishes recorded in the original deed of
+        transfer. The site of the former Royal Victoria Hospital must remain in
+        the public domain, be managed democratically and ecologically, and be
+        used to serve urgent needs .
+      </p>
+      <p>
+        <b>We oppose any attempt to privatize the site,</b> as has happened to
+        many other hospitals, and major institutional and ecclesiastical sites
+        close to the mountain, like the Children’s Hospital (sold off a cost of
+        $25 million, when its property assessment was $47 million), the Chest
+        Hospital (purchased by condo developers), as well as Marianopolis
+        College, the Couvent d’Outremont, the Missionary Sisters of the
+        Immaculate Conception, and the Shriners Hospital. Other publicly-owned
+        sites in Montreal that have been sold off for private developers include
+        the Radio-Canada site and the Peel-Bonaventure Basin site.
+      </p>
+      <p>
+        The founding members of the Coalition are the Milton Parc Citizens’
+        Committee, the Peter McGill Community Council, the Students’ Society of
+        McGill University, the Yellow Door, and the Communauté Milton Parc.
       </p>
       <Image
         fluid
