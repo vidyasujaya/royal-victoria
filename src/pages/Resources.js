@@ -1,4 +1,6 @@
 import React from "react";
+import { Image } from "react-bootstrap";
+import WhiteboardImage from "../assets/whiteboardImage.svg";
 
 export const Resources = () => {
   return (
@@ -9,8 +11,8 @@ export const Resources = () => {
         <b>
           Watch the information/consultation meetings with the Société
           québécoise des infrastructures (SQI), the provincial agency that
-          manages provincially owned property and is planning the future use of
-          the site. The coalition organized the first two meetings:
+          manages provincially owned property. The coalition organized the first
+          two meetings:
         </b>
       </p>
       <p>
@@ -53,6 +55,9 @@ export const Resources = () => {
         capitalist projects like for-profit hotels, luxury apartments, bars, and
         restaurants for the site!!
       </p>
+      <Image fluid src={WhiteboardImage} />
+      <br />
+      <br />
       <p>
         For more read the SQI’s{" "}
         <u>

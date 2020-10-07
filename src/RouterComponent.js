@@ -3,11 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Coalition } from "./pages/Coalition";
 import { Background } from "./pages/Background";
-import { OpenLetter } from "./pages/OpenLetter";
 import { Connect } from "./pages/Connect";
 import { Resources } from "./pages/Resources";
 import { NoMatch } from "./pages/NoMatch";
-import { Nothing } from "./pages/Nothing";
 import { Media } from "./pages/Media";
 import { Initiatives } from "./pages/Initiatives";
 

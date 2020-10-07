@@ -1,4 +1,6 @@
 import React from "react";
+import { Image } from "react-bootstrap";
+import MarchImage from "../assets/marchImage.svg";
 
 export const Initiatives = () => {
   return (
@@ -13,6 +15,9 @@ export const Initiatives = () => {
         Kowaluk (named after the Milton Parc community activist and social
         worker) where we gathered for speeches.
       </p>
+      <Image fluid src={MarchImage} />
+      <br />
+      <br />
       <p>
         After speeches were given, the march continued past Hôtel-Dieu Hospital
         (another decommissioned hospital with an uncertain future,{" "}
@@ -34,7 +39,7 @@ export const Initiatives = () => {
       <h5>Our Open Letter</h5>
       <p>
         After the coalition’s march on September 4th, we published an open
-        letter (LINK) in the media:
+        letter:
         <ul>
           <li>opposing privatization;</li>
           <li>insisting the site be used for public good;</li>
@@ -59,10 +64,13 @@ export const Initiatives = () => {
         from individuals.
       </p>
       <p>
-        It has been published in [...] and signed by over 56 community
-        organizations.
+        Read our letter{" "}
+        <u>
+          <a href="https://docs.google.com/document/d/1qIxjQ5V_lxecpgvNSi1VjL4b9_Qus9RUjWkF5kiTI2M/edit?usp=sharings">
+            here
+          </a>
+        </u>
       </p>
-      <p>Read our letter here</p>
       <h5>Our Consultation and Research</h5>
       <p>
         <i>The Royal Vic is ours: Here’s what we can do with it</i> feasibility

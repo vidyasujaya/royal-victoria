@@ -6,13 +6,12 @@ import Site from "../assets/Site.svg";
 export const Background = () => {
   return (
     <div>
-      <h3>Our Coalition</h3>
-      <h5>We are the Royal Vic for the Public Coalition</h5>
+      <h3>Background</h3>
       <hr />
       <p>
-        {"  "}In 2015, health services moved out of the Royal-Victoria Hospital
-        and into the new super-hospital at the Glen. Three years later, in 2018,
-        the Quebec government announced authorization of McGill University to
+        In 2015, health services moved out of the Royal-Victoria Hospital and
+        into the new super-hospital at the Glen. Three years later, in 2018, the
+        Quebec government announced authorization of McGill University to
         explore using half of the pavilions (pavilions L, M, S, A, and E) to
         develop a new campus by 2027. The government subsequently granted McGill
         $37m to fund a study on the feasibility of developing on the site. The
@@ -26,9 +25,8 @@ export const Background = () => {
         beds having been installed.
       </p>
       <p>
-        {"  "}The government has mandated the Société québécoise des
-        infrastructures (SQI), the provincial agency that manages provincially
-        owned property,
+        The government has mandated the Société québécoise des infrastructures
+        (SQI), the provincial agency that manages provincially owned property,{" "}
         <u>
           <a href="https://www.sqi.gouv.qc.ca/gestionprojets/Pages/RoyalVictoria-presentation.aspx">
             to do a master plan
@@ -43,9 +41,9 @@ export const Background = () => {
         groups of this coalition.
       </p>
       <p>
-        {"  "}The SQI will issue proposals to the Conseil du Trésor of the
-        provincial government. The Conseil du Trésor will ultimately make
-        decisions about the future of the site.
+        The SQI will issue proposals to the Conseil du Trésor of the provincial
+        government. The Conseil du Trésor will ultimately make decisions about
+        the future of the site.
       </p>
       <Image
         fluid
@@ -58,16 +56,16 @@ export const Background = () => {
       <br />
       <br />
       <p>
-        {"  "}So what will this process mean for the public? McGill University
-        will likely acquire half of the pavilions for a campus. The coalition is
-        not opposed to McGill using part of the site for a campus, but we insist
+        So what will this process mean for the public? McGill University will
+        likely acquire half of the pavilions for a campus. The coalition is not
+        opposed to McGill using part of the site for a campus, but we insist
         that ownership remains in the public domain and is safeguarded from any
         privatization.
       </p>
       <p>
-        {"  "}Regarding the Royal Victoria Hospital’s other pavilions, their
-        future is uncertain. Although the original founders of the hospital
-        wisely stipulated in the deed of transfer that the site must be used for
+        Regarding the Royal Victoria Hospital’s other pavilions, their future is
+        uncertain. Although the original founders of the hospital wisely
+        stipulated in the deed of transfer that the site must be used for
         healing, there is no guarantee that this provision is still legally
         binding. Certainly, none of{" "}
         <u>
@@ -78,7 +76,7 @@ export const Background = () => {
         prioritize social uses of the site.
       </p>
       <p>
-        {"  "}As mentioned above, the SQI has held consultative meetings with
+        As mentioned above, the SQI has held consultative meetings with
         stakeholder groups and guided visits of the site. However, it is not
         truly a public consultation (the Office de consultation publique de
         Montréal will do a consultation in 2021). The coalition has launched a
@@ -86,7 +84,7 @@ export const Background = () => {
         these deficits in the SQI’s approach.
       </p>
       <p>
-        {"  "}For more documentation on the SQI’s planning process, see their{" "}
+        For more documentation on the SQI’s planning process, see their{" "}
         <u>
           <a href="https://www.sqi.gouv.qc.ca/gestionprojets/Pages/Projet-Royal-Victoria---Documentation.aspx">
             webpage

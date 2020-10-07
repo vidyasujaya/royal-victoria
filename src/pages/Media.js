@@ -1,11 +1,12 @@
 import React from "react";
+import { Image } from "react-bootstrap";
+import MediaImageOne from "../assets/mediaImageOne.svg";
 
 export const Media = () => {
   return (
     <div>
       <h3>Media</h3>
       <hr />
-      <p>Read our press release here.</p>
       <p>
         <u>
           <a href="https://petermcgill.org/en/manifestation-royal-vic-journalisme/">
@@ -15,7 +16,9 @@ export const Media = () => {
         the citizen journalism piece written by Philippe Fines, resident of
         Peter-McGill.
       </p>
-      <p>MUSIC of Chorale du Peuple</p>
+      <Image fluid src={MediaImageOne} />
+      <br />
+      <br />
       <p>Contact us to keep informed of future events or to get involved!</p>
     </div>
   );
