@@ -11,13 +11,13 @@ export const Coalition = () => {
       <hr />
       <p>
         <b>
-          The Royal Vic for the Public Coalition is a Montreal-wide coalition to
-          advocate for the hospital to always be devoted to the common good,
+          The Royal Vic for the Public Coalition is a Montreal-wide coalition
+          that advocates for the Royal Victoria hospital to remain devoted to
+          the common good.
         </b>{" "}
-        in accordance with the founders’ wishes recorded in the original deed of
-        transfer. The site of the former Royal Victoria Hospital must remain in
-        the public domain, be managed democratically and ecologically, and be
-        used to serve urgent needs .
+        The site of the former Royal Victoria Hospital must remain in the public
+        domain, be managed democratically and ecologically, and be used to serve
+        urgent needs.
       </p>
       <p>
         <b>We oppose any attempt to privatize the site,</b> as has happened to

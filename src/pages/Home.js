@@ -1,5 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
+import { NavBar } from "../components/NavBar2";
 import ChristaLogo from "../assets/ChristaLogo.svg";
 
 export const Home = () => {

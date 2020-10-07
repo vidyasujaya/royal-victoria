@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import MarchImage from "../assets/marchImage.svg";
+import ResearchImage from "../assets/communityResearchImage.svg";
 
 export const Initiatives = () => {
   return (
@@ -53,8 +54,9 @@ export const Initiatives = () => {
         </ul>
       </p>
       <p>
-        Organizations still have the opportunity to sign our open letter. You
-        are invited to contact us at:{" "}
+        Organizations still have the opportunity to sign our open letter. It has
+        already been signed by over 56 community organizations. You are invited
+        to contact us at:{" "}
         <u>
           <a href="mailto:ccmp.miltonparc@gmail.com">
             ccmp.miltonparc@gmail.com
@@ -92,6 +94,9 @@ export const Initiatives = () => {
         operate in terms of ownership, management, financing, etc. The project
         will focus on the Women’s, Ross, and Hersey pavilions of the site.
       </p>
+      <Image fluid src={ResearchImage} />
+      <br />
+      <br />
       <p>
         We have already organized two virtual community consultation sessions
         with citizens and organizations in{" "}

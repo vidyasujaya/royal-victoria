@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import styled from "styled-components";
 import TextLogo from "../assets/TextLogo.svg";
 
@@ -29,23 +29,9 @@ export const NavBar = () => {
             <Nav.Link href="/resources">Resources</Nav.Link>
             <Nav.Link href="/media">Media</Nav.Link>
             <Nav.Link href="/connect-with-us">Connect With Us</Nav.Link>
-            {/*IN CASE OF FUTURE NEED FOR DROPDOWN NAV COMPONENT
-            <NavDropdown title="Publications" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/publications/our-open-letter">
-                Our Open Letter
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/publications/briefs">
-                Briefs
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/publications/reports">
-                Reports
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/publications/guides">
-                Guides
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/publications/others">
-                Others
-              </NavDropdown.Item>
+            {/*<NavDropdown title="Languages" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="/">English</NavDropdown.Item>
+              <NavDropdown.Item href="/fr/">French</NavDropdown.Item>
   </NavDropdown>*/}
           </Nav>
         </Navbar.Collapse>
