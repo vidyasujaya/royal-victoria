@@ -23,14 +23,14 @@ export const NavBarFR = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Page d'accueil</Nav.Link>
-            <Nav.Link href="/coalition">Notre Coalition</Nav.Link>
-            <Nav.Link href="/background">Historique</Nav.Link>
-            <Nav.Link href="/initiatives">Nos initiatives</Nav.Link>
-            <Nav.Link href="/resources">
+            <Nav.Link href="/fr/coalition">Notre Coalition</Nav.Link>
+            <Nav.Link href="/fr/background">Historique</Nav.Link>
+            <Nav.Link href="/fr/initiatives">Nos initiatives</Nav.Link>
+            <Nav.Link href="/fr/resources">
               Ressources et renseignements additionnels
             </Nav.Link>
-            <Nav.Link href="/media">Médias</Nav.Link>
-            <Nav.Link href="/connect-with-us">Nous joindre</Nav.Link>
+            <Nav.Link href="/fr/media">Médias</Nav.Link>
+            <Nav.Link href="/fr/connect-with-us">Nous joindre</Nav.Link>
             <NavDropdown title="Languages" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/">Anglais</NavDropdown.Item>
               <NavDropdown.Item href="/fr/">Française</NavDropdown.Item>

@@ -7,13 +7,9 @@ export const Connect = () => {
       <hr />
       <p>
         Email us at:{" "}
+        <a href="mailto:connect@royalvic.org">connect@royalvic.org</a>
         <u>
           <a></a>
-        </u>
-      </p>
-      <p>
-        <u>
-          <a>Join the Google Group</a>
         </u>
       </p>
     </div>
